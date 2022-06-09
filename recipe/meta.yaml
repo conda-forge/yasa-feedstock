@@ -55,5 +55,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - raphaelvallat
     - larsoner
     - hoechenberger
