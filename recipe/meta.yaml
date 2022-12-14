@@ -1,5 +1,5 @@
 {% set name = "yasa" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 75d8e21de78a0ef6c4e42a8596c3a20148e3b017f8cb0a715efeabab555aa786
+  sha256: f5510b52fdb2b858e5edc449b28f0c6005ec24aec67e667a1bffd4bd70aeee17
 
 build:
   noarch: python
@@ -36,6 +36,7 @@ requirements:
     - lspopt
     - ipywidgets
     - joblib
+    - lightgbm
 
 test:
   imports:
