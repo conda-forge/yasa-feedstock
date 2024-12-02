@@ -46,7 +46,7 @@ test:
     - pip
     - python {{ python_min }}
   commands:
-    - pip check
+    - pip check -vvv
 
 about:
   home: https://raphaelvallat.com/yasa
