@@ -46,7 +46,10 @@ test:
     - pip
     - python {{ python_min }}
   commands:
-    - pip check -vvv
+    - python -c "import yasa; print(yasa.__version__)"
+    # Disabled until sleepecg->wfdb->pysoundfile is fixed
+    # https://github.com/conda-forge/pysoundfile-feedstock/pull/24
+    # - pip check -vvv
 
 about:
   home: https://raphaelvallat.com/yasa
