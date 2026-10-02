@@ -1,13 +1,13 @@
 {% set name = "yasa" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9a0106a06a76ddac1a1483fa2ca5cb3a604d9d233055b2fac0992d8db04bd4f4
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 0a31a036baf254f0d5ec1932237e3c56bbfe78659008ea50d796d74817fb4e6f
 
 build:
   noarch: python
