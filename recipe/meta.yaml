@@ -1,5 +1,5 @@
 {% set name = "yasa" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0a31a036baf254f0d5ec1932237e3c56bbfe78659008ea50d796d74817fb4e6f
+  sha256: ce0e2f4ab2155f08dbdb00ed3a3a8443f5a8823e10163137465020c78380ac21
 
 build:
   noarch: python
